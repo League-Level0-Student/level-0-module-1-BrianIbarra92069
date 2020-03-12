@@ -10,7 +10,7 @@ public static void main(String[] args) {
 String birthday = JOptionPane.showInputDialog("When is your birthday");
 
 if(birthday.equals("03/05/2020") {
-	showMessagedialog("Happy Birth")
+	showMessagedialog("Happy Birthday");
 	
 	
 }
