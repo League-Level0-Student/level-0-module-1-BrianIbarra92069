@@ -31,7 +31,10 @@ public class SecretMessageBox {
 		//	 if (Password.equals(arg0))
 		
 	// 4. If their guess matches the password, show them the secret message
-if (passcode.equals(Password));
+if (passcode.equals(Password)) { JOptionPane.showMessageDialog(null,"My Fav Yu-Gi-Oh! Card that i can beat with is Dododo Swordsman and Darklord Desire");}
 	// 5. If the password does not match, pop-up "INTRUDER"		
-	}	
+else { JOptionPane.showMessageDialog(null, "INTRUDER");
+
 	}
+	}
+}
