@@ -34,7 +34,7 @@ public class RobotInSpace implements KeyEventDispatcher {
 		// 4. If the down arrow is pressed, move the Robot down.
 			System.out.println(40) ;
 		// 5. If the left arrow is pressed, make the Robot go left.
-			
+			System.out.println(38) 
 		// 6. If right is pressed, move the Robot right.
 
 		// 7. Run your program and move the Robot to R2-D2 for a surprise!
