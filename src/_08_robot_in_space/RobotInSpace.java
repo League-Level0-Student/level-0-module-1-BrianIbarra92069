@@ -30,13 +30,40 @@ public class RobotInSpace implements KeyEventDispatcher {
 		// each arrow key
 		System.out.println(keyPressed) ;
 		// 3. If the up arrow is pressed, move the Robot up the screen.
-			System.out.println(37) ;
+			System.out.println(38);
+			if  (keyPressed ==(38))			{ 
+			rob.setAngle(0);
+			rob.microMove(5);
+			
+			
+			}
+			
 		// 4. If the down arrow is pressed, move the Robot down.
-			System.out.println(40) ;
+			System.out.println(40);
+			if  (keyPressed ==(40))			{
+			rob.setAngle(180);
+			rob.microMove(5);
+			
+			
+			}
+			
+			
 		// 5. If the left arrow is pressed, make the Robot go left.
-			System.out.println(38) 
+			System.out.println(37);
+			if (keyPressed  ==(37))			{
+			rob.setAngle(270);
+			rob.microMove(5);
+				
+				
+			}
 		// 6. If right is pressed, move the Robot right.
-
+			System.out.println(39);
+			if (keyPressed  ==(39))			{
+			rob.setAngle(90);
+			rob.microMove(5);	
+				
+			
+			}
 		// 7. Run your program and move the Robot to R2-D2 for a surprise!
 	}
 
