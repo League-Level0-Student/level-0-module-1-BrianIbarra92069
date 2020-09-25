@@ -7,6 +7,20 @@ public class badgers {
 			System.out.print("Badgers, ");
 
 		}
-		System.out.print
+		System.out.println();
+		for (int i = 0; i < 2; i++) {
+			System.out.print("Mushroom ");	
+		}
+		System.out.println();
+		for (int i = 0; i < 13; i++) {
+
+			System.out.print("Badgers, ");
+		}		
+			System.out.println();
+			for (int i = 0; i < 1; i++) {
+
+				System.out.print("A Snake!");
+			}
+		}
 	}
-}
+
